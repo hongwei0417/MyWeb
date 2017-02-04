@@ -1,0 +1,39 @@
+.me img{
+  width: 350px;
+  height: 350px;
+  opacity: 0.6;
+  border: solid rgb(23, 23, 23);
+  vertical-align: middle;
+}
+.me {
+  display: inline-block;
+}
+.welcome {
+  display: inline-block;
+  vertical-align: middle;
+  width: 55%;
+  height: 350px;
+}
+.welcome div {
+  margin: 50px;
+  text-align: center;
+}
+marquee {
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+.welcome p {
+  color: white;
+  margin-top: 80px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+}
+.content {
+  /*max-height: 70%;*/
+  /*background-color: red;*/
+}
+.home {
+  background-color: rgba(255, 138, 0, 0.5);
+}

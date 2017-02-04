@@ -1,0 +1,90 @@
+.content {
+  /*background-color: rgba(203, 203, 203, 0.2);*/
+  padding: 0;
+  height: 2000px;
+}
+.cgu img {
+  opacity: 0.5;
+  width: 50%;
+  height: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: -5px;
+}
+.cgu div {
+  vertical-align: middle;
+  display: inline-block;
+  color: white;
+  /*font-weight: bold;*/
+}
+
+.gate div,.im div,.dormitory div {
+  display: inline-block;
+  text-align: right;
+  width: 50%;
+  height: 50%;
+  /*background-color: red;*/
+  padding: 0;
+  margin: 0;
+  border: 0;
+  vertical-align: middle;
+}
+.lawn div,.stairs div {
+  display: inline-block;
+  vertical-align: middle;
+  height: 50%;
+  width: 50%;
+  margin-right: -5px;
+}
+.cgu {
+  margin: 50px 0;
+}
+.cgu:nth-of-type(2n+1) {
+  border-right: solid 10px rgba(255, 255, 255, 0.8);
+  padding-right: 40px;
+}
+.cgu:nth-of-type(2n) {
+  border-left: solid 10px rgba(255, 255, 255, 0.7);
+  padding-left: 40px;
+}
+hr {
+  height: 1px;
+  background-color: white;
+  /*border: 10px;*/
+}
+.cgu div {
+  font-size: 20px;
+}
+.gate div{
+  font-size: 25px;
+}
+.cgu:hover img{
+  opacity: 1;
+}
+.collage {
+  background-color: rgba(143, 226, 69, 0.5);
+}
+.offical {
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+.offical a {
+  text-decoration: none;
+}
+a:link {
+  color: white;
+  opacity: 0.5;
+}
+a:visited {
+  color: white;
+  opacity: 0.5;
+}
+a:hover {
+  color: white;
+  opacity: 1;
+}
+a:active {
+  color: rgba(255, 245, 0, 0.65);
+}
